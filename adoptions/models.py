@@ -1,7 +1,5 @@
 from django.db import models
 
-# Create your models here.
-
 class Pet(models.Model):
     SEX_CHOICES = [('M', 'Male'), ('F', 'Female')]
     name = models.CharField(max_length=100)
